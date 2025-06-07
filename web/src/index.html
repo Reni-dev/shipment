@@ -1,0 +1,70 @@
+<!--
+*  File: index.html
+*  Author: Hanák Renáta
+*  Copyright: 2025, Hanák Renáta
+*  Group: Szoft 1/N
+*  Date: 2025-06-07
+*  Github: https://github.com/reni-dev/
+*  Licenc: MIT
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sip</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shipments</h1>
+    
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Shipment Id</th>
+          <th>Sent Date</th>
+          <th>End Date</th>
+          <th>Adresse</th>
+          <th>Target City</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+          <!--ide -->
+      </tbody>
+    </table>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Name Card
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Name Card</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> Made by: Hanák Renáta <br>
+                Date: 2025-06-07 <br>
+                Group: Szoft 1/N</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="bootstrap.js"></script>
+  <script src="app.js"></script>  
+</body>
+</html>
